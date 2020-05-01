@@ -1,0 +1,38 @@
+body .dg.ac { display: none; }
+
+.toppoem {
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+.poem {
+    display: inline-block;
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 1.8rem;
+    color: black;
+
+    -moz-text-shadow: 0 0 5px #fff;
+    -webkit-text-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 7px #fff;
+    transition: all 0s;
+    /* transition: font-size 0s; */
+    /* transition: color 3s; */
+    /* transition: text-shadow 3s; */
+}
+
+#poem .small {
+    font-size: 80%;
+}
+
+#poem .text-center {
+    text-align: center !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.tab:after {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
