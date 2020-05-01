@@ -19,7 +19,7 @@ body .dg.ac { display: none; }
 
 @font-face {
     font-family: 'Inter';
-    src: url('css/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
