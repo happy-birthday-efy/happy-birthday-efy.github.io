@@ -6,12 +6,20 @@ body .dg.ac { display: none; }
     z-index: 9999;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('css/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .poem {
     display: inline-block;
     /* font-family: 'Poiret One', cursive; */
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     /* font-family: 'Rubik', sans-serif; */
-    font-size: 1.8rem;
+    font-family: 'Inter';
+    font-size: 2.0rem;
     color: black;
 
     -moz-text-shadow: 0 0 5px #fff;
